@@ -13,7 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/')
+WebUI.openBrowser('')
 
-CustomKeywords.'pmrsQaPackage.inputFields.inputUser'('Admin', 'admin123')
+WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
+
+WebUI.click(findTestObject('Object Repository/Finding No. 27/Page_PMRS Web Application/button_Alfred Adonis_mat-fab m (1)'))
+
+WebUI.setText(findTestObject('Object Repository/Finding No. 27/Page_PMRS Web Application/input_PATIENT_mat-input-0 (1)'), 
+    'test@gmail.com')
+
+WebUI.setText(findTestObject('Object Repository/Finding No. 27/Page_PMRS Web Application/input_NICKNAME_mat-input-1 (1)'), 
+    'test')
+
+WebUI.click(findTestObject('Object Repository/Finding No. 27/Page_PMRS Web Application/span_CONFIRM'))
+
+WebUI.delay(2)
 

@@ -18,19 +18,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
 
-public class inputFields {
+public class findingNo27 {
 
 	@Keyword
-	def inputUser(String user1,String pass1) {
-		enterUser(user1);
-		enterPass(pass1)
+	def addAppointmentKeyword(int loop) {
+
+		addAppointment(loop);
 	}
 
+	static void addAppointment(int looper) {
 
-	static void enterUser(String user) {
-		WebUI.setText(findTestObject('Object Repository/Finding No. 21/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), user)
-	}
-	static void enterPass(String pass) {
-		WebUI.setText(findTestObject('Object Repository/Finding No. 21/Page_OrangeHRM/input_Username_txtPassword'), pass)
+		for(int x=0;x<looper;x++) {
+			WebUI.callTestCase(findTestCase('27/Finding No. 27'), [:], FailureHandling.STOP_ON_FAILURE)
+		}
 	}
 }

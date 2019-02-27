@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Finding No. 21</name>
+   <name>Finding No. 27 - Loop</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>12b4be63-efd0-4ae1-bb02-b1502c2d1955</testCaseGuid>
+   <testCaseGuid>1727377c-4787-4188-af42-a797c99fd99d</testCaseGuid>
 </TestCaseEntity>

@@ -13,3 +13,9 @@ def static "pmrsQaPackage.inputFields.inputUser"(
         	user1
          , 	pass1)
 }
+
+def static "pmrsQaPackage.findingNo27.addAppointmentKeyword"(
+    	int loop	) {
+    (new pmrsQaPackage.findingNo27()).addAppointmentKeyword(
+        	loop)
+}
