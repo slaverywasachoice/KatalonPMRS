@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>When adding appointment from 2 different doctors, the position of the first doctor becomes zero</description>
-   <name>Finding No. 26</name>
+   <name>26_firstDocAddAppointment</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5e4aaa9b-9376-40d9-8df9-d8de744d51fe</testCaseGuid>
