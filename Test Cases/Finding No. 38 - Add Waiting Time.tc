@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Should not able to add negative numbers on &quot;Additional Waiting Time&quot; field</description>
+   <name>Finding No. 38 - Add Waiting Time</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e87274bf-e28a-4422-b204-335caa208a39</testCaseGuid>
+</TestCaseEntity>

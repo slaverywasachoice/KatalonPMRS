@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Placeholder and entered values for Email address and nickname fields are cropped</description>
+   <name>Finding No. 34</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>56a7d5ab-2a4e-4b45-8706-e9a85586e7dd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Send sms does not work when clicking bell button</description>
+   <name>Finding No. 33 - Send SMS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4c1b82c-419f-44bd-96d5-52a873dd183e</testCaseGuid>
+</TestCaseEntity>

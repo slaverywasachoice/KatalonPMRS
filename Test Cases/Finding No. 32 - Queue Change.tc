@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Flood notifs when changing queue</description>
+   <name>Finding No. 32 - Queue Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8f3b761-483a-42a7-b9e2-333a5b954138</testCaseGuid>
+</TestCaseEntity>
